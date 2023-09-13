@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px){
+    .pro ul{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-row-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .pro ul{
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        grid-row-gap: 3rem;
+    }
+
+    .inner{
+        width:1300px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .pro ul{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-row-gap: 3rem;
+    }
+
+    .inner{
+        width: 100%;
+    }
+}
